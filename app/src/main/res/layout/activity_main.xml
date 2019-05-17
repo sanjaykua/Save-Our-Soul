@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gandhii"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="129dp"
+        app:srcCompat="@drawable/puducherry"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="132dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="129dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="501dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginRight="89dp"
+        android:background="@color/fui_bgAnonymous"
+        android:padding="5dp"
+        android:text="SAVE OUR SOUL"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="@dimen/browser_actions_context_menu_min_padding"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_trending_flat_black_24dp"
+        android:layout_alignParentRight="true">
+
+    </android.support.design.widget.FloatingActionButton>
+
+
+</RelativeLayout>
